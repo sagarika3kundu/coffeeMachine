@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="com.dunzo.coffeemachine.utility" project="CoffeeMachine" 
+    file="/CoffeeMachine/src/com/dunzo/coffeemachine/utility" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="207" x="376" y="240"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="com.dunzo.coffeemachine.inventory" project="CoffeeMachine" 
+    file="/CoffeeMachine/src/com/dunzo/coffeemachine/inventory" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="229" x="623" y="240"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="com.dunzo.coffeemachine.alert" project="CoffeeMachine" 
+    file="/CoffeeMachine/src/com/dunzo/coffeemachine/alert" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="203" x="1212" y="240"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="4" language="java" name="com.dunzo.coffeemachine.alert.Alert" project="CoffeeMachine" 
+    file="/CoffeeMachine/src/com/dunzo/coffeemachine/alert/Alert.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="280" x="892" y="240"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.dunzo.coffeemachine.beverages.Beverages" project="CoffeeMachine" 
+    file="/CoffeeMachine/src/com/dunzo/coffeemachine/beverages/Beverages.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="228" x="1063" y="425"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.dunzo.coffeemachine.inventory.Ingredients" project="CoffeeMachine" 
+    file="/CoffeeMachine/src/com/dunzo/coffeemachine/inventory/Ingredients.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="164" x="1501" y="636"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.dunzo.coffeemachine.utility.CheckInventory" project="CoffeeMachine" 
+    file="/CoffeeMachine/src/com/dunzo/coffeemachine/utility/CheckInventory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="280" x="1331" y="425"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.dunzo.coffeemachine.utility.GetCoffee" project="CoffeeMachine" 
+    file="/CoffeeMachine/src/com/dunzo/coffeemachine/utility/GetCoffee.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="293" x="1455" y="240"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="9" language="java" name="com.dunzo.coffeemachine.beverages" project="CoffeeMachine" 
+    file="/CoffeeMachine/src/com/dunzo/coffeemachine/beverages" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="237" x="1788" y="240"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="10" language="java" name="com.dunzo.coffeemachine.inventory.AddIngredients" project="CoffeeMachine" 
+    file="/CoffeeMachine/src/com/dunzo/coffeemachine/inventory/AddIngredients.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="269" x="2065" y="240"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.dunzo.coffeemachine.CoffeeImpl" project="CoffeeMachine" 
+    file="/CoffeeMachine/src/com/dunzo/coffeemachine/CoffeeImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="144" x="2374" y="240"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="12" language="java" name="com.dunzo.coffeemachine" project="CoffeeMachine" 
+    file="/CoffeeMachine/src/com/dunzo/coffeemachine" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="174" x="2568" y="240"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="13" language="java" name="com.dunzo.coffeemachine.ParseJson" project="CoffeeMachine" 
+    file="/CoffeeMachine/src/com/dunzo/coffeemachine/ParseJson.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="246" x="1938" y="425"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.dunzo.coffeemachine.Driver" project="CoffeeMachine" 
+    file="/CoffeeMachine/src/com/dunzo/coffeemachine/Driver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="121" x="2782" y="240"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="15">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="16" name="inventory"/>      
+      <multiplicity id="17" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="18">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="19" name="instance"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="21">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="22" name="instance"/>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <association id="25">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="26" name="ingts"/>      
+      <multiplicity id="27" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="28">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="29" name="parse"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
