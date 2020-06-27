@@ -1,4 +1,4 @@
-<h3>Coffee Machine
+<h3>COFFEE MACHINE</h3>
 
 PACKAGES :
 The System has 5 Packages. The driver API is com.dunzo.coffeemachine and the class which interacts with the user is Driver.java 
