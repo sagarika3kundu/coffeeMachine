@@ -3,8 +3,10 @@ package com.dunzo.coffeemachine.inventory;
 import java.util.HashMap;
 import java.util.Scanner;
 
+
 public class AddIngredients {
 	public void addIngredients(HashMap<String, Ingredients> inventory) {
+		//Refilling Ingredients as given by user
 		String response;
 		Scanner sc = new Scanner(System.in);
 		do{

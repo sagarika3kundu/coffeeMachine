@@ -18,9 +18,14 @@ public class Driver {
 		
 //		String file_location = "C:\\Users\\Laptop\\Desktop\\CoffeeMachine\\FunctionalTestingJson\\testInput1.json";
         
+		
+		//Getting the instance for Singleton class CoffeeImpl
         CoffeeImpl impl = CoffeeImpl.getInstance();
         try {
+        	//Processing all drinks , N drinks at a time
         	impl.getOutput(file_location);
+        	
+        	//Check whether the user needs to refill
         	System.out.println("\nEnter 'Y' to Refill Ingredients, press any other Button to Exit: ");
             String s = sc.next();
             if(s.equals("Y") || s.contentEquals("y")) {
@@ -29,6 +34,7 @@ public class Driver {
            System.out.println("\nTHANK YOU !!!!!");
            sc.close();
         }
+        //Catching all possible exceptions
         catch(NullPointerException e) {
         	System.out.println("Json Keys/Format is incorrect...\nExiting ...");
         }

@@ -15,6 +15,9 @@ public class CheckInventory extends Alert{
 	}
 	public void checkIngredients(HashMap<String, Ingredients> inventory) {
 		Iterator<Entry<String, Ingredients>> it = inventory.entrySet().iterator();
+		
+		//check the quantity of all ingredients
+		//raises alert if quantity is lower than or equal to 50 
 		while(it.hasNext()) {
 			HashMap.Entry<String, Ingredients> pair = (HashMap.Entry<String, Ingredients>) it.next();
 			if(pair.getValue().getQuantity() <= 50) {

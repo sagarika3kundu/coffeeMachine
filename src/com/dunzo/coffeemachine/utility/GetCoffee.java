@@ -10,6 +10,8 @@ import com.dunzo.coffeemachine.inventory.Ingredients;
 public class GetCoffee {
 	public void getDrink(Beverages b, HashMap<String, Ingredients> inventory) {
 		ArrayList<Ingredients> ingred = b.getIngts();
+		
+		//Makes Drinks for the user
 		for(int i=0; i<ingred.size(); ++i) {
 			if(inventory.containsKey(ingred.get(i).getIngredient())) {
 				if(ingred.get(i).getQuantity() > inventory.get(ingred.get(i).getIngredient()).getQuantity()) {

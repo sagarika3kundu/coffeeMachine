@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-
+//Singleton Class
 public class CoffeeImpl {
 	private static CoffeeImpl instance = null;
 	private static ParseJson parse;
@@ -27,10 +27,14 @@ public class CoffeeImpl {
 			instance = new CoffeeImpl();
 		return instance;
 	}
+	
+	//Calls the parse function in ParseJson 
 	public void getOutput(String file_location) throws FileNotFoundException, IOException, ParseException, NullPointerException {        
         	parse = ParseJson.getInstance();
             parse.parseJsonFile(file_location);     
 	}
+	
+	//Calls the function to refill ingredients
 	public void addIngredients() {
 		Scanner sc = new Scanner(System.in);
 		HashMap<String, Ingredients> inventory = parse.getIngredients();

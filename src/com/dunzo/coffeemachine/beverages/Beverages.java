@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import com.dunzo.coffeemachine.inventory.Ingredients;
 
+//All Beverages to be processed
 public class Beverages {
 	private String beverage;
 	private ArrayList<Ingredients> ingts = new ArrayList<Ingredients>();

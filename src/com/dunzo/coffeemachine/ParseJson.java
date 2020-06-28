@@ -76,12 +76,13 @@ class ParseJson {
                  }
                  Beverages b = new Beverages(drink, ingts);
                  beverage.add(b);
+                 
+                 //If N beverages are parsed, we produce the drink
                  if(beverage.size() == outlet) {
                 	 System.out.println("Processing " + beverage.size() + " order/s...");
                 	 try {
 						TimeUnit.SECONDS.sleep(1);
 					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
                 	 for(int s = 0; s < outlet; ++s) {
@@ -98,7 +99,6 @@ class ParseJson {
             try {
 				TimeUnit.SECONDS.sleep(1);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
            	 for(int s = 0; s < beverage.size(); ++s) {
@@ -110,19 +110,8 @@ class ParseJson {
             }
 
         }
-//        catch(FileNotFoundException e){
-//        	System.out.println("File not Found. Try again...");
-//        }
-//		catch(IOException e){
-//			System.out.println("IO exception. Please try again !!!");
-//        }
-//		catch(ParseException e){
-//			System.out.println("Cannot Parse Json Input, invalid Json provided");
-//        }
-//		catch(Exception e){
-//        	e.printStackTrace();
-//        }
-//	}
+	
+//Returns the Inventory
 	public HashMap<String, Ingredients> getIngredients(){
 		return inventory;
 	}
