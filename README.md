@@ -9,7 +9,7 @@ The 5 packages are –
 4.	com.dunzo.coffeemachine.inventory
 5.	com.dunzo.coffeemachine.utility
 
-![alt text](https://github.com/sagarika3kundu/coffeeMachine/ClassDiagram.png/image.jpg?raw=true)
+![alt text](https://github.com/sagarika3kundu/coffeeMachine/blob/master/ClassDiagram.png/image.jpg?raw=true)
 
 INPUT JSON :
 The Coffee Machine expects a json input with keys same as : https://www.npoint.io/docs/e8cd5a9bbd1331de326a
